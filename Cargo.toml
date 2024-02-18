@@ -1,0 +1,24 @@
+[package]
+name = "fun-with-nom"
+version = "0.1.0"
+edition = "2021"
+description = "A repo and playground for learning the Nom crate"
+readme = "README.md"
+authors = ["Jeffery D. Mitchell", "<sentinel1909@jeff-mitchell.dev>"]
+repository = "https://github.com/sentinel1909/fun-with-nom"
+license = 'MIT'
+
+[[bin]]
+name = "fun-with-nom"
+path = "src/bin/main.rs"
+
+[lib]
+name = "fun_with_nom_lib"
+path = "src/lib/lib.rs"
+
+[dependencies]
+actix-web = "4.5.1"
+nom = "7.1.3"
+shuttle-actix-web = "0.39.0"
+shuttle-runtime = "0.39.0"
+tokio = "1.26.0"
