@@ -14,7 +14,7 @@ I understand how to compose the simple building block parsers.
 
 ## Challenges to Overcome
 
-I don't understand yet, how to use combinators correctly.
+I'm beginning to understand combinators. There is now a `/count` endpoint which accepts a plain text string of any length. The endpoint responds with the word count. Nom is leveraged here via calling a parser which returns the text input as a vector of words. The `.len()` method is then called to get the word count.
 
 ## Nom Resources
 
