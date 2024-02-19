@@ -1,6 +1,7 @@
 // src/lib/lib.rs
 
+pub mod errors;
+pub mod parser;
 pub mod routes;
-pub mod utilities;
 
-pub use utilities::*;
+pub use parser::*;
